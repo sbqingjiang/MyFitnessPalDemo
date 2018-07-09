@@ -1,0 +1,14 @@
+<resources>
+    <string name="net_work_error">Net work error, please try later.</string>
+    <!-- MainActivity -->
+    <string name="app_name">FitnessPalDemo</string>
+    <string name="search">Input key words</string>
+    <string name="request_fail">Fail to load data, please try later.</string>
+    <string name="next_button">Next page</string>
+    <string name="previous_button">Previous</string>
+    <string name="no_results">No results.</string>
+    <string name="invalid_link">Cannot find web link!</string>
+
+    <!-- DetailsActivity -->
+    <string name="share_link">Share link with your friends.</string>
+</resources>
