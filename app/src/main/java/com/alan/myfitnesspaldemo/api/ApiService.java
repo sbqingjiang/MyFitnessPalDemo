@@ -11,6 +11,9 @@ public interface ApiService {
     String API_BASE_URL = "https://api.nytimes.com/svc/search/v2/";
     String API_IMAGE_BASE_URL = "http://www.nytimes.com/";
 
+    /*
+     * build url with query
+     */
     @GET("articlesearch.json")
     Call<ApiResponse> query(
             @Query("q") String query,
